@@ -61,10 +61,7 @@ function RootLayoutNav() {
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
         <Stack.Screen name="modal" options={{ presentation: "modal" }} />
         {/* <Stack.Screen name="Contacts" options={{ headerShown: false }} /> */}
-        <Stack.Screen
-          name="screens/Messages"
-          options={{ headerShown: false }}
-        />
+        <Stack.Screen name="Messages" options={{ headerShown: false }} />
         {/* <Stack.Screen
           name="messages/[contactId]"
           options={{ headerShown: false }}
